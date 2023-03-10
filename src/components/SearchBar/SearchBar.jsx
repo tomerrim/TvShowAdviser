@@ -13,7 +13,7 @@ export const SearchBar = ({onSubmit}) =>{
         }
     }
 
-    function handleChange(){
+    function handleChange(e){
         setValue(e.target.value);
     }
 
